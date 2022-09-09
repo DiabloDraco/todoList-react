@@ -1,0 +1,79 @@
+body {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#input {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+button {
+    width: 100px;
+    height: 42px;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    outline: none;
+    margin-left: -5px;    
+}
+#add {
+    border-radius: 0 0 0 0;
+}
+button:hover {
+    background-color: rgb(155, 49, 255);
+}
+button:active {
+    background-color: rgb(123, 136, 255);
+}
+
+#tot-text {
+    font-weight: 900;
+    font-size: 25px;
+    color: rgb(58, 3, 110);
+}
+
+#total {
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(58, 3, 110);
+}
+#tot {
+    display: flex;
+}
+#tot-wrap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 25px;
+    padding: 0;
+    font-weight: bold;
+    color: rgb(58, 3, 110);
+}
+
+#error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    color: rgb(58, 3, 110);
+}
+/* Copyrighted by Mirmuhsin */
