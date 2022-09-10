@@ -5,6 +5,7 @@ function todoItem({title , id , allTodos , setTodo , check}) {
         let filteredTodo = allTodos.filter(finddel => finddel.id !== id)
         
         setTodo(filteredTodo)
+      document.querySelector("#total").textContent = allTodos.length - 1
         localStorage.setItem("todos", JSON.stringify(filteredTodo))
     }
 
